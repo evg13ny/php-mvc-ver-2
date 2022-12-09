@@ -1,5 +1,7 @@
 <?php
 
+defined("ROOTPATH") or exit("Access denied");
+
 trait Controller
 {
     public function view($name)

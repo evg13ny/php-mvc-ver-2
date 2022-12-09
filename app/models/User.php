@@ -1,5 +1,7 @@
 <?php
 
+defined("ROOTPATH") or exit("Access denied");
+
 class User
 {
     use Model;

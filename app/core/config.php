@@ -1,5 +1,7 @@
 <?php
 
+defined("ROOTPATH") or exit("Access denied");
+
 if ($_SERVER["SERVER_NAME"] == "localhost") {
     define("DBNAME", "php-mvc_test_db");
     define("DBHOST", "localhost");
