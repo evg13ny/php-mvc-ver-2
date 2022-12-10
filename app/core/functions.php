@@ -155,7 +155,7 @@ function remove_images_from_content($content, $folder = "uploads/")
     $new_content = $content;
 
     if (is_array($matches) && count($matches) > 0) {
-        $image_class = new \Core\Image();
+        $image_class = new \Model\Image();
 
         foreach ($matches[0] as $match) {
             // ignore linked images

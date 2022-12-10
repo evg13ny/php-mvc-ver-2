@@ -1,10 +1,12 @@
 <?php
 
+namespace Controller;
+
 defined("ROOTPATH") or exit("Access denied");
 
 class Products
 {
-    use Controller;
+    use MainController;
 
     public function index()
     {

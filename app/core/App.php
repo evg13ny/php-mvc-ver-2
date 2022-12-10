@@ -32,7 +32,7 @@ class App
             $this->controller = "_404";
         }
 
-        $controller = new $this->controller;
+        $controller = new ("\Controller\\" . $this->controller);
 
         /** select method */
         if (!empty($URL[1])) {
